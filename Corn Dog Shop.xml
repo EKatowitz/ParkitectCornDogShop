@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>Corn Dog Shop</ModName>
+  <ModDiscription>A Shop For Selling Corn Dogs</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>Corn Dog Shop@storefront</OBJName>
+      <Type>Shop</Type>
+      <inGameName>Corn Dogs</inGameName>
+      <price>200</price>
+      <Shop>
+        <Product>
+          <Model>Corn Dog Shop@smaller_corn_dog_5</Model>
+          <Price>2</Price>
+          <Type>consumable</Type>
+          <Name>Corn Dog</Name>
+          <Hand>Right</Hand>
+          <ConsumeAnimation>generic</ConsumeAnimation>
+          <Temprature>none</Temprature>
+          <Portions>0</Portions>
+          <Ingredients>
+            <Ingredient>
+              <Name>Weiners</Name>
+              <Price>0.75</Price>
+              <Amount>100</Amount>
+              <tweakable>false</tweakable>
+              <Effects>
+                <effect>
+                  <Type>hunger</Type>
+                  <Amount>-1</Amount>
+                </effect>
+              </Effects>
+            </Ingredient>
+            <Ingredient>
+              <Name>Batter</Name>
+              <Price>0.25</Price>
+              <Amount>100</Amount>
+              <tweakable>false</tweakable>
+              <Effects />
+            </Ingredient>
+          </Ingredients>
+        </Product>
+      </Shop>
+      <recolorable>false</recolorable>
+      <shader>None</shader>
+    </Object>
+    <Object>
+      <OBJName>Corn Dog Shop@smaller_corn_dog_5</OBJName>
+      <Type>none</Type>
+      <inGameName>smaller_corn_dog_5</inGameName>
+      <price>0</price>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+  </Objects>
+</Mod>
