@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 830621437
+CRC: 3960176077
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d7d22a1a54e2e543ab83e6b8c0d2b665
+    Hash: 705849e36429a09ddd880d146860fef0
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6d74f2d6b370c4d26f3cae461538e43
@@ -26,6 +26,6 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/Mods/Corn Dog Shop/Corn Dog Shop@storefront.prefab
+- Assets/Mods/Corn Dog Shop/Corn Dog Shop@store2c.prefab
 - Assets/Mods/Corn Dog Shop/Corn Dog Shop@smaller_corn_dog_5.prefab
 Dependencies: []
